@@ -1,5 +1,5 @@
 {
-  "name": "node-wdt-native",
+  "name": "wdt-native",
   "version": "1.0.0",
   "description": "Native functionality for the Whatever Dance Toolbox NW.js implementation.",
   "main": "./lib/wdt",
