@@ -27,6 +27,3 @@ before_script:
   - sudo apt-get purge libcv-dev
   - sudo apt-get purge libopencv-dev
   - sudo apt-get purge libhighgui-dev
-
-script:
-  - if [[ $INSTALL_RESULT != 0 ]]; then echo "returned $INSTALL_RESULT";false; fi
