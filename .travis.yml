@@ -27,3 +27,5 @@ before_script:
   - sudo apt-get purge libcv-dev
   - sudo apt-get purge libopencv-dev
   - sudo apt-get purge libhighgui-dev
+
+script:
