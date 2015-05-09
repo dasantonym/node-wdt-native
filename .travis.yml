@@ -32,4 +32,3 @@ before_script:
 
 script:
   - if [[ $INSTALL_RESULT != 0 ]]; then echo "returned $INSTALL_RESULT";false; fi
-  - cmake-js clean
