@@ -17,7 +17,7 @@ before_install:
   - sudo add-apt-repository -y ppa:kubuntu-ppa/backports
   - sudo apt-get update
   - sudo apt-get install --force-yes cmake libcv-dev libcvaux-dev libhighgui-dev libopencv-dev
-  - npm install -g cmake-js
+  - sudo npm install -g cmake-js
   - COMMIT_MESSAGE=$(git show -s --format=%B $TRAVIS_COMMIT | tr -d '\n')
 
 install:
@@ -32,3 +32,4 @@ before_script:
 
 script:
   - if [[ $INSTALL_RESULT != 0 ]]; then echo "returned $INSTALL_RESULT";false; fi
+  - cmake-js clean
