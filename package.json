@@ -1,14 +1,19 @@
 {
   "name": "wdt-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Native functionality for the Whatever Dance Toolbox NW.js implementation.",
   "main": "./lib/wdt",
   "scripts": {
     "install": "node ./node_modules/cmake-js/bin/cmake-js rebuild",
     "test": "echo \"no test specified\" && exit 0"
   },
-  "author": "Anton Koch (Original code by Daniel Turing)",
-  "license": "LGPL",
+  "author": "Anton Koch <antonymousfeedback@gmail.com>",
+  "licenses": [
+    {
+      "type": "LGPL-2.1",
+      "url": "https://github.com/dasantonym/node-wdt-native/LICENSE"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:dasantonym/node-wdt-native.git"
