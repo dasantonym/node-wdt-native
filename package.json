@@ -1,6 +1,6 @@
 {
   "name": "wdt-native",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Native functionality for the Whatever Dance Toolbox NW.js implementation.",
   "main": "./lib/wdt",
   "scripts": {
@@ -20,11 +20,6 @@
   },
   "bugs": {
     "url": "https://github.com/dasantonym/node-wdt-native/issues"
-  },
-  "cmake-js": {
-    "runtime": "nw",
-    "runtimeVersion": "0.12.1",
-    "arch": "x64"
   },
   "dependencies": {
     "bindings": "^1.2.1",
