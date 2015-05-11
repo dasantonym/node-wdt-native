@@ -8,7 +8,19 @@ The module uses [node-opencv](https://github.com/peterbraden/node-opencv) for Op
 
 ## Install
 
-The module requires cmake and the opencv library and headers. It automatically builds for node-webkit version 0.12.1 (see package.json if you want to build for nodejs).
+The module requires cmake and the opencv library and headers.
+
+To build for a specific platform other than your current node/iojs, add this to your package.json (see cmake-js docs for more info):
+
+```shell
+"cmake-js": {
+  "runtime": "nw",
+  "runtimeVersion": "0.12.1",
+  "arch": "x64"
+}
+```
+
+To build and install the module
 
 ```shell
 npm install wdt-native
